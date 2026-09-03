@@ -1,0 +1,114 @@
+.portfolio-header {
+  background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+  padding: 100px 20px 80px;
+  border-bottom: 1px solid #30363d;
+  color: #f8fafc;
+}
+
+.header-container {
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  text-align: left;
+}
+
+.profile-img-container {
+  flex-shrink: 0;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00B4D8;
+  box-shadow: 0 10px 30px rgba(0, 180, 216, 0.25);
+  display: block;
+}
+
+.header-content {
+  flex-grow: 1;
+}
+
+.header-badge {
+  display: inline-block;
+  background-color: rgba(0, 180, 216, 0.1);
+  color: #00B4D8;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 180, 216, 0.2);
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.portfolio-header h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #f1f5f9;
+}
+
+.highlight-blue {
+  color: #00B4D8;
+}
+
+.header-bio {
+  font-size: 1rem;
+  color: #94a3b8;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  background-color: #00B4D8;
+  color: #0d1117;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #48CAE4;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #f8fafc;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #30363d;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-secondary:hover {
+  border-color: #00B4D8;
+  background-color: rgba(0, 180, 216, 0.05);
+}
+
+/* Adattamento responsive per schermi più piccoli */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .header-actions {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,25 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.highlight-blue {
+  color: #00B4D8; 
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.8;
+}

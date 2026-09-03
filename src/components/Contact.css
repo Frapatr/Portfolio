@@ -1,0 +1,149 @@
+.contact-section {
+  padding: 90px 20px;
+  background-color: #161b22;
+  color: #f8fafc;
+  text-align: center;
+  border-top: 1px solid #30363d;
+}
+
+.contact-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #f1f5f9;
+}
+
+.highlight-blue {
+  color: #00B4D8;
+}
+
+.contact-text {
+  font-size: 1.05rem;
+  color: #94a3b8;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.contact-card-link,
+.email-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  color: #f8fafc;
+  padding: 14px 26px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+  font-family: inherit;
+}
+
+.contact-card-link:hover,
+.email-toggle-btn:hover {
+  transform: translateY(-3px);
+  border-color: #00B4D8;
+  box-shadow: 0 8px 20px rgba(0, 180, 216, 0.15);
+  color: #00B4D8;
+}
+
+.contact-icon {
+  font-size: 1.2rem;
+}
+
+/* Stili del Form di Contatto */
+.contact-form-container {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  padding: 30px;
+  margin-top: 30px;
+  text-align: left;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+.form-group input,
+.form-group textarea {
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 12px 16px;
+  color: #f8fafc;
+  font-size: 0.95rem;
+  font-family: inherit;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #00B4D8;
+  box-shadow: 0 0 0 3px rgba(0, 180, 216, 0.15);
+}
+
+.form-submit-btn {
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.form-success-message {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.form-success-message p {
+  font-size: 1.1rem;
+  color: #38bdf8;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
