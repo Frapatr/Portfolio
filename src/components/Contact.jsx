@@ -34,7 +34,7 @@ function Contact() {
             <span className="contact-icon">📧</span>
             <span>{isFormOpen ? "Chiudi Form" : "Scrivimi un Messaggio"}</span>
           </button>
-          <a href="https://linkedin.com/in/tuo-profilo" target="_blank" rel="noopener noreferrer" className="contact-card-link">
+          <a href="https://www.linkedin.com/in/francesco-patrizio-91b05433b/" target="_blank" rel="noopener noreferrer" className="contact-card-link">
             <span className="contact-icon">💼</span>
             <span>LinkedIn</span>
           </a>
